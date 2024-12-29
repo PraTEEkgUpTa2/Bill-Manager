@@ -1,0 +1,64 @@
+/* BillTable.css */
+.bill-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .bill-table th,
+  .bill-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .bill-table th {
+    background-color: #f1f1f1;
+    color: #444;
+    font-weight: bold;
+  }
+  
+  .bill-table tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  .bill-table tr:nth-child(even) {
+    background-color: #fff;
+  }
+  
+  .bill-table tr.highlighted {
+    background-color: #e0f7ea; /* Light green */
+  }
+  
+  .bill-table .input {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .bill-table .btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .bill-table .btn.edit {
+    background-color: #ffc107; /* Yellow */
+  }
+  
+  .bill-table .btn.delete {
+    background-color: #dc3545; /* Red */
+  }
+  
+  .bill-table .btn.save {
+    background-color: #28a745; /* Green */
+  }
+  
+  .bill-table .btn.cancel {
+    background-color: #6c757d; /* Gray */
+  }
+  
